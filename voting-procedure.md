@@ -8,9 +8,10 @@ For project-based exceptions to any of these procedures and how to request an ex
                                                                                                                                  
 A vote of Hiero maintainers is required in, but not necessarily limited to, the cases listed below:
 
-1. Changes to the membership of a group
-2. Changes to the permissions of a group
+1. Changes to the membership of a group (limited to the maintainers of the affected project)
+2. Changes to the permissions of a group (limited to the maintainers of the affected project)
 3. Adding or removing a group
+4. Changes to the procedures and/or guidelines defined in this repository
 
 The intent is for maintainers to vote on any change to membership, roles, procedures, or guidelines.
 
