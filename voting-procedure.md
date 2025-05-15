@@ -11,7 +11,6 @@ A vote of Hiero maintainers is required in, but not necessarily limited to, the 
 1. Changes to the membership of a group
 2. Changes to the permissions of a group
 3. Adding or removing a group
-4. Modifications to the documentation in this governance repository.
 
 The intent is for maintainers to vote on any change to membership, roles, procedures, or guidelines.
 
