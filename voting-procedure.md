@@ -23,7 +23,7 @@ The intent is for maintainers to vote on any change to membership, roles, proced
 ```
 # Voting
 ## Voting is required
-Per the guidelines outlined in the [voting-procedures.md](https://github.com/hiero-ledger/governance/blob/main/voting-procedures.md.yaml), votes should be cast as follows:
+Per the guidelines outlined in the [voting-procedures.md](https://github.com/hiero-ledger/governance/blob/main/voting-procedures.md), votes should be cast as follows:
 
 Vote in favor of the candidate's promotion by approving the PR with a comment indicating approval.
   -Example: "IN FAVOR - Looks good to me"
