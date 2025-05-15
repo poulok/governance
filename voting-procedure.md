@@ -1,6 +1,6 @@
 # Voting Procedure
 
-This file contains an overview of our voting procedure.
+This file contains an overview of Hiero's voting procedure.
 
 For project-based exceptions to any of these procedures and how to request an exception, please refer to the following [Tracker](https://github.com/hiero-ledger/governance/blob/main/project-rules-exceptions.md).
                                                                                                                                  
