@@ -23,7 +23,7 @@ The intent is for maintainers to vote on any change to membership, roles, proced
 ```
 # Voting
 ## Voting is required
-Per the guidelines outlined in the voting-procedures.md in this repository votes should be cast as follows:
+Per the guidelines outlined in the [voting-procedures.md](https://github.com/hiero-ledger/governance/blob/main/voting-procedures.md.yaml), votes should be cast as follows:
 
 Vote in favor of the candidate's promotion by approving the PR with a comment indicating approval.
   -Example: "IN FAVOR - Looks good to me"
@@ -38,4 +38,12 @@ The vote will close on <date> at <time> UTC.
 
 3. Set the date and time to 2 weeks after the date the PR is opened.
 4. Add the `maintainer-vote` label.
-5. Add all the maintainers of the project the change affects. These groups can be found [here](https://github.com/hiero-ledger/governance/blob/main/config.yaml).
+5. Add all the maintainers of the project the change affects. These groups defined [here](https://github.com/hiero-ledger/governance/blob/main/config.yaml).
+6. Open the PR for review.
+
+## Concluding the vote
+
+A vote concludes when one of the following is true:
+
+1. The vote carries by gathering more than half `IN FAVOR` votes out of a total of all `IN FAVOR`, `REJECT`, and missing votes. The PR should be merged.
+2. The vote does not carry by failing to gather enough votes as described in #1 by the end of the voting period. The PR should be closed.
