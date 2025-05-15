@@ -46,8 +46,8 @@ The vote will close on <date> at <time> UTC.
 
 A vote concludes when one of the following is true:
 
-1. The vote carries by gathering more than half `IN FAVOR` votes out of a total of all `IN FAVOR`, `REJECT`, and missing votes. The PR should be merged.
-2. The vote does not carry by failing to gather enough votes as described in #1 by the end of the voting period. The PR should be closed.
+1. Prior to the voting window closing, the vote carries gathers more than half `IN FAVOR` votes out of a total of all `IN FAVOR`, `REJECT`, and missing votes. The vote carries and the PR should be merged.
+2. The voting window closes without gathering enough votes as described in #1. The vote fails and the PR should be closed.
 
 ## Vote participation
 
