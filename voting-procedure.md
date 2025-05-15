@@ -40,6 +40,7 @@ The vote will close on <date> at <time> UTC.
 4. Add the `maintainer-vote` label.
 5. Add all the maintainers of the project the change affects. These groups defined [here](https://github.com/hiero-ledger/governance/blob/main/config.yaml).
 6. Open the PR for review.
+7. Notify all maintainers that a vote is now open.
 
 ## Concluding the vote
 
@@ -47,3 +48,7 @@ A vote concludes when one of the following is true:
 
 1. The vote carries by gathering more than half `IN FAVOR` votes out of a total of all `IN FAVOR`, `REJECT`, and missing votes. The PR should be merged.
 2. The vote does not carry by failing to gather enough votes as described in #1 by the end of the voting period. The PR should be closed.
+
+## Vote participation
+
+Maintainers are required to participate in votes, but may effectively abstain from voting by posting a comment that starts with `ABSTAIN` in the PR. The comment should be formatted as `[IN FAVOR|REJECT|ABSTAIN] - <explanation>`.  If a maintainer does not participate in several consecutive votes they will be considered "inactive" which can be grounds for removal of maintainer status.
